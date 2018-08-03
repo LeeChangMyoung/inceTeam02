@@ -1,0 +1,142 @@
+
+.writeForm{
+  background-size: 100%;
+  width: 1536px;
+  width: 100%;
+  height: 800px;
+  max-width: 2000px;
+  min-width: 1536px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.writeForm .writeWrap{
+	position: relative;
+    width: 909px;
+    height: 95%;
+    margin: 0 auto;
+    padding: 0 149px;
+    font-size: 16px;
+}
+
+.writeForm .writeWrap .title{
+  font-size: 24px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding: 35px;
+}
+
+.writeForm .writeWrap .writeContents{
+  width: 100%;
+  height: 495px;
+}
+
+.writeForm .writeWrap .writeContents .ipSec{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+.writeForm .writeWrap .writeContents .ipSec > div{
+  font-size: 28px;
+  width: 80px;
+  height: 100%;
+  letter-spacing: 5.4px;
+  text-align: center;
+  float: left;
+  line-height: 53px;
+  margin-right: 22px;
+}
+
+.writeForm .writeWrap .writeContents .ipSec > div.letter_3{
+  letter-spacing: 7.9px;
+  margin-left: 3px;
+  margin-right: 19px;
+  font-size:12px;
+  font-style:normal;
+}
+
+.writeForm .writeWrap .writeContents .ipSec > div.letter_2{
+  letter-spacing: 24.5px;
+  margin-left: 9px;
+  margin-right: 13px;
+  font-size:12px;
+  font-style:normal;
+}
+
+.writeForm .writeWrap .writeContents .ipSec > input{
+  float: left;
+  border: 1px solid #cecece;
+  width: 400px;
+  height: 100%;
+  font-size: 28px;
+  padding: 8px;
+}
+
+.writeForm .writeWrap .writeContents .ipSec .textAreaBox{
+  border: 1px solid #cecece;
+  width: 400px;
+  height: 270px;
+  margin-right: 0;
+}
+
+.writeForm .writeWrap .writeContents .ipSec textarea{
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  font-size: 28px;
+  resize: none;
+}
+
+.writeForm .writeWrap .fileReg{
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+
+.writeForm .writeWrap .fileReg > div{
+  font-size: 28px;
+  line-height: 53px;
+  width: 70px;
+  text-align: center;
+  float: left;
+}
+
+.writeForm .writeWrap .fileReg input{
+  font-size: 15px;
+  padding-top: 12px;
+  padding-left: 32px;
+}
+
+.writeForm .writeWrap .btnsWrap{
+  position: relative;
+  width: 100%;
+  height: 78px;
+}
+
+.writeForm .writeWrap .btnsWrap ul{
+  height: 100%;
+  margin-left: 102px;
+}
+
+.writeForm .writeWrap .btnsWrap ul li{
+  display: inline-block;
+  margin: 27px 11px 0 0;
+}
+
+.writeForm .writeWrap .btnsWrap ul li input{ 
+    width: 89px;
+    height: 38px;
+    font-size: 17px;
+    border: 1px solid #cecece;
+    background: #ffffff;
+}
+.writeForm .writeWrap .btnsWrap ul li input:hover{
+	border-color: #f1f1f1;
+}
+.writeForm .writeWrap .fileReg input:hover{
+	border-color: #f1f1f1;
+}
